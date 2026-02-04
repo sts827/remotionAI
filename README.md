@@ -89,9 +89,13 @@ npm run dev
 
 ## 📝 라이선스 (License)
 
-이 프로젝트는 **MIT License**로 배포됩니다.
+이 프로젝트의 **소스 코드**는 **MIT License**로 배포됩니다. 누구나 자유롭게 수정하고 사용할 수 있습니다.
 
-> **주의사항 (Note on Remotion License)**:
-> 이 프로젝트는 [Remotion](https://www.remotion.dev/)을 기반으로 합니다.
-> Remotion은 개인 및 소규모 기업(3인 이하, 영리 목적 포함)에게는 **무료(Free)**이나, 일정 규모 이상의 기업에게는 **Company License**가 필요할 수 있습니다.
-> 자세한 내용은 [Remotion Licensing](https://www.remotion.dev/license) 페이지를 확인하시기 바랍니다.
+> **⚠️ Remotion 라이선스 주의사항**:
+> 이 프로젝트는비디오 렌더링을 위해 **[Remotion](https://www.remotion.dev/)** 프레임워크를 사용합니다.
+> Remotion은 **독자적인 라이선스 정책**을 따릅니다:
+> - **개인 / 비영리 / 소기업(직원 3인 이하)**: 무료 사용 가능 (Free License).
+> - **중대형 기업**: 상업적 사용 시 **Company License** 구매가 필요합니다.
+>
+> 프로젝트 코드는 무료로 사용 가능하지만, 이를 통해 영상을 제작하고 배포하는 행위는 Remotion의 라이선스 정책을 준수해야 합니다.
+> 상세 내용은 [Remotion License FAQ](https://www.remotion.dev/license)를 참조하세요.
