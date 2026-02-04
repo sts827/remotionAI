@@ -87,5 +87,11 @@ npm run dev
 
 ---
 
-## 📝 라이선스
-MIT License
+## 📝 라이선스 (License)
+
+이 프로젝트는 **MIT License**로 배포됩니다.
+
+> **주의사항 (Note on Remotion License)**:
+> 이 프로젝트는 [Remotion](https://www.remotion.dev/)을 기반으로 합니다.
+> Remotion은 개인 및 소규모 기업(3인 이하, 영리 목적 포함)에게는 **무료(Free)**이나, 일정 규모 이상의 기업에게는 **Company License**가 필요할 수 있습니다.
+> 자세한 내용은 [Remotion Licensing](https://www.remotion.dev/license) 페이지를 확인하시기 바랍니다.
