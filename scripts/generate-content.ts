@@ -27,12 +27,19 @@
  */
 
 import * as dotenv from 'dotenv';
+import * as path from 'path';
+import * as fs from 'fs';
+import { getAudioDurationInSeconds } from 'get-audio-duration';
+// Import factory after dotenv setup to ensure process.env is populated
+import { getTextProvider, getTTSProvider, getImageProvider } from '../src/services/ai/factory';
+
+// Load .env first (defaults)
 dotenv.config();
 
-import { getTextProvider, getTTSProvider, getImageProvider } from '../src/services/ai/factory';
-import { getAudioDurationInSeconds } from 'get-audio-duration';
-import * as fs from 'fs';
-import * as path from 'path';
+// Load .env.local if it exists (overrides .env)
+const localEnvPath = path.resolve(process.cwd(), '.env.local');
+dotenv.config({ path: localEnvPath, override: true });
+
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Type Definitions
