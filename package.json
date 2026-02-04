@@ -1,0 +1,39 @@
+{
+    "name": "remotion-app",
+    "version": "1.0.0",
+    "description": "Remotion project",
+    "scripts": {
+        "start": "remotion studio",
+        "dev": "remotion studio",
+        "build": "remotion render",
+        "upgrade": "remotion upgrade",
+        "test": "eslint src --ext ts,tsx && tsc",
+        "generate": "npx tsx scripts/generate-content.ts"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.24.1",
+        "@remotion/bundler": "^4.0.417",
+        "@remotion/cli": "^4.0.417",
+        "@remotion/media-utils": "^4.0.417",
+        "@remotion/player": "^4.0.417",
+        "@remotion/renderer": "^4.0.417",
+        "@remotion/transitions": "^4.0.417",
+        "@remotion/zod-types": "^4.0.417",
+        "dotenv": "^17.2.3",
+        "get-audio-duration": "^4.0.1",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "remotion": "^4.0.417",
+        "zod": "^3.22.3"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.0",
+        "@types/web": "^0.0.130",
+        "eslint": "^8.0.0",
+        "eslint-plugin-react": "^7.0.0",
+        "prettier": "^3.0.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.0.0"
+    },
+    "packageManager": "npm@9.0.0"
+}

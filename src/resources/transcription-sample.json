@@ -1,0 +1,49 @@
+{
+    "id": "caption-track-1",
+    "type": "caption",
+    "startFrame": 0,
+    "durationInFrames": 300,
+    "layer": 3,
+    "style": {
+        "fontSize": 80,
+        "color": "#ffff00",
+        "animation": "pop"
+    },
+    "segments": [
+        {
+            "text": "Welcome",
+            "startMs": 0,
+            "endMs": 500
+        },
+        {
+            "text": "to",
+            "startMs": 500,
+            "endMs": 700
+        },
+        {
+            "text": "the",
+            "startMs": 700,
+            "endMs": 900
+        },
+        {
+            "text": "Future",
+            "startMs": 900,
+            "endMs": 1500
+        },
+        {
+            "text": "of",
+            "startMs": 1500,
+            "endMs": 1700
+        },
+        {
+            "text": "Video",
+            "startMs": 1700,
+            "endMs": 2200
+        },
+        {
+            "text": "Creation!",
+            "startMs": 2200,
+            "endMs": 3000
+        }
+    ]
+}

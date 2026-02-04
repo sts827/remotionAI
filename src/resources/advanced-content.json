@@ -1,0 +1,89 @@
+{
+    "title": "AI Video (2 Scenes)",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "backgroundMusic": {
+        "src": "assets/background.mp3",
+        "volume": 0,
+        "loop": true
+    },
+    "tracks": [
+        {
+            "id": "voice-1",
+            "type": "audio",
+            "src": "assets/test-project/voice-1.mp3",
+            "startFrame": 0,
+            "durationInFrames": 150,
+            "layer": 1,
+            "volume": 1
+        },
+        {
+            "id": "scene-1-bg",
+            "type": "image",
+            "src": "assets/test-project/scene-1.png",
+            "startFrame": 0,
+            "durationInFrames": 150,
+            "layer": 0,
+            "animation": {
+                "type": "ken-burns",
+                "direction": "in",
+                "intensity": "subtle"
+            },
+            "transition": {
+                "type": "fade",
+                "durationInFrames": 15
+            }
+        },
+        {
+            "id": "scene-1-text",
+            "type": "text",
+            "text": "안녕하세요, 이 장면은 워킹 씬 테스트입니다. 카메라가 걸어가는 느낌을 주나요?",
+            "fontSize": 48,
+            "color": "#ffffff",
+            "x": 50,
+            "y": 85,
+            "startFrame": 0,
+            "durationInFrames": 150,
+            "layer": 2
+        },
+        {
+            "id": "voice-2",
+            "type": "audio",
+            "src": "assets/test-project/voice-2.mp3",
+            "startFrame": 150,
+            "durationInFrames": 150,
+            "layer": 1,
+            "volume": 1
+        },
+        {
+            "id": "scene-2-bg",
+            "type": "image",
+            "src": "assets/test-project/scene-2.png",
+            "startFrame": 150,
+            "durationInFrames": 150,
+            "layer": 0,
+            "animation": {
+                "type": "ken-burns",
+                "direction": "random",
+                "intensity": "subtle"
+            },
+            "transition": {
+                "type": "fade",
+                "durationInFrames": 15
+            }
+        },
+        {
+            "id": "scene-2-text",
+            "type": "text",
+            "text": "이것은 일반 켄번 효과 테스트입니다. 줌인이 부드럽게 되어야 합니다.",
+            "fontSize": 48,
+            "color": "#ffffff",
+            "x": 50,
+            "y": 85,
+            "startFrame": 150,
+            "durationInFrames": 150,
+            "layer": 2
+        }
+    ]
+}

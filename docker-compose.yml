@@ -1,0 +1,12 @@
+version: "3"
+services:
+  remotion-app:
+    build: .
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "3010:3010"
+    environment:
+      - REMOTION_APP_PORT=3010
+    command: npm start -- --port=3010 --host=0.0.0.0

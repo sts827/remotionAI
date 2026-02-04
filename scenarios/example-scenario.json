@@ -1,0 +1,30 @@
+[
+    {
+        "scene_id": 1,
+        "duration": 4,
+        "script": "여러분, 오늘은 인공지능이 우리 일상을 어떻게 바꾸고 있는지 알아볼게요.",
+        "image_prompt": "Futuristic cityscape at dawn, holographic AI interfaces floating in the air, warm golden light, cinematic wide shot, 8k resolution, photorealistic",
+        "source_type": "AI_GENERATION"
+    },
+    {
+        "scene_id": 2,
+        "duration": 5,
+        "script": "AI는 이제 우리의 일상 곳곳에 스며들어 있습니다. 스마트폰부터 자동차까지요.",
+        "image_prompt": "Close-up of a person using smartphone with AI assistant visualization, soft blue glow emanating from screen, shallow depth of field, modern minimalist interior background",
+        "source_type": "AI_GENERATION"
+    },
+    {
+        "scene_id": 3,
+        "duration": 4,
+        "script": "특히 창작 분야에서 AI의 활약이 눈부십니다.",
+        "image_prompt": "Digital artist workspace with AI-generated art on multiple screens, creative studio atmosphere, neon accent lighting, medium shot, dramatic composition",
+        "source_type": "AI_GENERATION"
+    },
+    {
+        "scene_id": 4,
+        "duration": 5,
+        "script": "앞으로 AI와 인간이 함께 만들어갈 미래가 정말 기대됩니다!",
+        "image_prompt": "Human and robot hands reaching toward each other, inspired by Michelangelo's Creation of Adam, soft ethereal lighting, symbolic composition, cinematic, high detail",
+        "source_type": "AI_GENERATION"
+    }
+]
